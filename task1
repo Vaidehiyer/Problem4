@@ -1,0 +1,32 @@
+Script started on 2024-07-08 16:37:56+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="149" LINES="11"]
+[0;32m@Vaidehiyer [0m➜ [1;34m/workspaces/codespaces-blank [0m$ g++ Tester.cpp -o Tester
+[0;32m@Vaidehiyer [0m➜ [1;34m/workspaces/codespaces-blank [0m$ ./Tester 
+Testing the Link-Based Bag:
+The initial bag is empty.
+isEmpty: returns 1; should be 1 (true)
+The bag contains 0 items:
+
+
+Add 6 items to the bag: 
+The bag contains 6 items:
+one two three four five one 
+
+isEmpty: returns 0; should be 0 (false)
+getCurrentSize: returns 6; should be 6
+Try to add another entry: add("extra") returns 1
+contains("three"): returns 1; should be 1 (true)
+contains("ten"): returns 0; should be 0 (false)
+getFrequencyOf("one"): returns 2 should be 2
+remove("one"): returns 1; should be 1 (true)
+getFrequencyOf("one"): returns 1 should be 1
+remove("one"): returns 1; should be 1 (true)
+remove("one"): returns 0; should be 0 (false)
+
+The bag contains 5 items:
+two three four five extra 
+
+After clearing the bag, isEmpty: returns 1; should be 1 (true)
+All done!
+[0;32m@Vaidehiyer [0m➜ [1;34m/workspaces/codespaces-blank [0m$ exit
+
+Script done on 2024-07-08 16:38:09+00:00 [COMMAND_EXIT_CODE="0"]

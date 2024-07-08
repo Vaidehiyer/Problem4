@@ -1,0 +1,30 @@
+Script started on 2024-07-08 16:38:21+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="149" LINES="11"]
+[0;32m@Vaidehiyer [0m➜ [1;34m/workspaces/codespaces-blank [0m$ g++ SpellChecker.cpp -o SpellChecker
+[0;32m@Vaidehiyer [0m➜ [1;34m/workspaces/codespaces-blank [0m$ ./SpellChecker 
+Enter the name of the file that contains words to check:
+myreport.txt
+The following words in the file "myreport.txt" are not spelled correctly:
+stude
+reseach
+resul
+outpt
+hobbi
+Thanks for using the spell checker system.
+[0;32m@Vaidehiyer [0m➜ [1;34m/workspaces/codespaces-blank [0m$ ./SpellChecker 
+Enter the name of the file that contains words to check:
+unknown.r txt
+Could not open file to check: unknown.txt
+[0;32m@Vaidehiyer [1;31m➜ [1;34m/workspaces/codespaces-blank [0m$ ./SpellChecker 
+Enter the name of the file that contains words to check:
+myreport.txt
+All words in the file "myreport.txt" are spelled correctly.
+Thanks for using the spell checker system.
+[0;32m@Vaidehiyer [0m➜ [1;34m/workspaces/codespaces-blank [0m$ ./SpellChecker g++ SpellChecker.cpp -o SpellChecker
+[0;32m@Vaidehiyer [0m➜ [1;34m/workspaces/codespaces-blank [0m$ g++ SpellChecker.cpp -o SpellChecker[21P./SpellChecker 
+Enter the name of the file that contains words to check:
+myreport.txt
+All words in the file "myreport.txt" are spelled correctly.
+Thanks for using the spell checker system.
+[0;32m@Vaidehiyer [0m➜ [1;34m/workspaces/codespaces-blank [0m$ exit
+
+Script done on 2024-07-08 16:41:36+00:00 [COMMAND_EXIT_CODE="0"]
